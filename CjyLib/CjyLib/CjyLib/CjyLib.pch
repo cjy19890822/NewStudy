@@ -1,0 +1,42 @@
+//
+//  CjyLib.pch
+//  CjyLib
+//
+//  Created by cjy on 2018/12/17.
+//  Copyright © 2018年 cjy. All rights reserved.
+//
+
+//#ifndef CjyLib_pch
+//#define CjyLib_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//1. 定义全局性宏；
+#define  RH_APP_VERSION                  @"1.0"
+//2. 引用全局性头文件；
+#import <Foundation/Foundation.h>
+#define DEVELOP_ENV    0
+#define TEST_ENV       1
+#define PRODUCTION_ENV 0
+#define ENABLE_LOG     1
+
+
+//pch 文件使用elif 而不是elseif
+#if  DEVELOP_ENV
+#define MAIN_URL @"www.baidu.com"
+#elif TEST_ENV
+#define MAIN_URL @"www.sina.com"
+#elif PRODUCTION_ENV
+#define MAIN_URL @"www.qq.com"
+#else
+#define MAIN_URL @"www.leigod.com"
+#endif /* CjyLib_pch */
+
+//3. 根据运行环境，自动打开或者关闭日志输出功能。
+#if ENABLE_LOG
+#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define DLog(...)
+#endif
+
+
