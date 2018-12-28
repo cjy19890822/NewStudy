@@ -7,7 +7,7 @@
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="DbStudent" positionX="-63" positionY="-18" width="128" height="60"/>
         <element name="Child" positionX="-45" positionY="9" width="128" height="60"/>
+        <element name="DbStudent" positionX="-63" positionY="-18" width="128" height="60"/>
     </elements>
 </model>

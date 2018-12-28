@@ -11,7 +11,7 @@
 #import "CoreDataManager.h"
 #import "CJYUserModel.h"
 #import "CJYLoginService.h"
-
+#import "FFtoast.h"
 @interface ViewController ()
 //@property(nonatomic,strong) 
 @end
@@ -99,8 +99,11 @@
     NSArray* arr = [self query];
     if([[CoreDataManager sharedInstance] deleteObject:arr.firstObject])
     {
-        NSLog(@"删除成功");
+       // NSLog(@"删除成功");
         [[CoreDataManager sharedInstance] save];
+        [FFToast showToastWithTitle:@"delete" message:@"delete suc" iconImage:nil
+                                                                     duration:2.0 toastType:FFToastTypeSuccess];
+        
     }
 }
 -(void)addBtn:(UIButton*)btn

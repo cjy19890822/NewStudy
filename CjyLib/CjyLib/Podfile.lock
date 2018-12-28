@@ -14,13 +14,24 @@ PODS:
   - AFNetworking/Serialization (3.2.0)
   - AFNetworking/UIKit (3.2.0):
     - AFNetworking/NSURLSession
+  - FFToast (1.2.0)
+  - SDWebImage (4.3.2):
+    - SDWebImage/Core (= 4.3.2)
+  - SDWebImage/Core (4.3.2)
+  - WMPageController (2.5.2)
 
 DEPENDENCIES:
   - AFNetworking
+  - FFToast
+  - SDWebImage (~> 4.3.2)
+  - WMPageController (~> 2.5.2)
 
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  FFToast: 60e0f3c9fd8fc473205015055ee39cd200404e01
+  SDWebImage: 29bd3c0bc1f01e5eb59720847c64ad4c4ca1af5d
+  WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
 
-PODFILE CHECKSUM: 5f29c1d4ab1ff4e3738b2346f0f75ae9425bdf86
+PODFILE CHECKSUM: a585f933858be2f36a1b20a7f3e7522a9e9c4890
 
 COCOAPODS: 1.4.0
