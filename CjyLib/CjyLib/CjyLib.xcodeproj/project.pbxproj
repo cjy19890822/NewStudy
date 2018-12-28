@@ -20,10 +20,6 @@
 		4334F15C21D532D9004ED526 /* CJYLoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4334F15821D532D9004ED526 /* CJYLoginService.m */; };
 		434BA87321D4DE95001FFF70 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 434BA87121D4DE95001FFF70 /* CoreDataManager.m */; };
 		434BA87621D4DF40001FFF70 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 434BA87421D4DF40001FFF70 /* Model.xcdatamodeld */; };
-		4376713821D6513100BB3AB5 /* DbStudent+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4376713121D6513000BB3AB5 /* DbStudent+CoreDataClass.m */; };
-		4376713921D6513100BB3AB5 /* Child+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4376713221D6513000BB3AB5 /* Child+CoreDataClass.m */; };
-		4376713A21D6513100BB3AB5 /* Child+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4376713421D6513000BB3AB5 /* Child+CoreDataProperties.m */; };
-		4376713B21D6513100BB3AB5 /* DbStudent+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4376713521D6513000BB3AB5 /* DbStudent+CoreDataProperties.m */; };
 		439A42FF21C7FE920096470C /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A42FE21C7FE920096470C /* Student.m */; };
 		439A430221C8024D0096470C /* SubStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A430121C8024D0096470C /* SubStudent.m */; };
 		43A6E75421CA714E00DB0BC3 /* NSObject+CJYPreventCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6E75321CA714E00DB0BC3 /* NSObject+CJYPreventCrash.m */; };
@@ -78,14 +74,6 @@
 		434BA87121D4DE95001FFF70 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
 		434BA87221D4DE95001FFF70 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
 		434BA87521D4DF40001FFF70 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		4376713021D6513000BB3AB5 /* DbStudent+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DbStudent+CoreDataClass.h"; path = "/Users/cjy/Desktop/自学/Study/NewStudy/CjyLib/CjyLib/CjyLib/DbStudent+CoreDataClass.h"; sourceTree = "<absolute>"; };
-		4376713121D6513000BB3AB5 /* DbStudent+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DbStudent+CoreDataClass.m"; path = "/Users/cjy/Desktop/自学/Study/NewStudy/CjyLib/CjyLib/CjyLib/DbStudent+CoreDataClass.m"; sourceTree = "<absolute>"; };
-		4376713221D6513000BB3AB5 /* Child+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Child+CoreDataClass.m"; path = "/Users/cjy/Desktop/自学/Study/NewStudy/CjyLib/CjyLib/CjyLib/Child+CoreDataClass.m"; sourceTree = "<absolute>"; };
-		4376713321D6513000BB3AB5 /* DbStudent+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DbStudent+CoreDataProperties.h"; path = "/Users/cjy/Desktop/自学/Study/NewStudy/CjyLib/CjyLib/CjyLib/DbStudent+CoreDataProperties.h"; sourceTree = "<absolute>"; };
-		4376713421D6513000BB3AB5 /* Child+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Child+CoreDataProperties.m"; path = "/Users/cjy/Desktop/自学/Study/NewStudy/CjyLib/CjyLib/CjyLib/Child+CoreDataProperties.m"; sourceTree = "<absolute>"; };
-		4376713521D6513000BB3AB5 /* DbStudent+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DbStudent+CoreDataProperties.m"; path = "/Users/cjy/Desktop/自学/Study/NewStudy/CjyLib/CjyLib/CjyLib/DbStudent+CoreDataProperties.m"; sourceTree = "<absolute>"; };
-		4376713621D6513000BB3AB5 /* Child+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Child+CoreDataProperties.h"; path = "/Users/cjy/Desktop/自学/Study/NewStudy/CjyLib/CjyLib/CjyLib/Child+CoreDataProperties.h"; sourceTree = "<absolute>"; };
-		4376713721D6513000BB3AB5 /* Child+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Child+CoreDataClass.h"; path = "/Users/cjy/Desktop/自学/Study/NewStudy/CjyLib/CjyLib/CjyLib/Child+CoreDataClass.h"; sourceTree = "<absolute>"; };
 		439A42FC21C7E9980096470C /* CjyLib.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CjyLib.pch; sourceTree = "<group>"; };
 		439A42FD21C7FE920096470C /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		439A42FE21C7FE920096470C /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
@@ -156,14 +144,6 @@
 		43348A4421C6A99500AEC354 /* CjyLib */ = {
 			isa = PBXGroup;
 			children = (
-				4376713621D6513000BB3AB5 /* Child+CoreDataProperties.h */,
-				4376713721D6513000BB3AB5 /* Child+CoreDataClass.h */,
-				4376713221D6513000BB3AB5 /* Child+CoreDataClass.m */,
-				4376713421D6513000BB3AB5 /* Child+CoreDataProperties.m */,
-				4376713321D6513000BB3AB5 /* DbStudent+CoreDataProperties.h */,
-				4376713021D6513000BB3AB5 /* DbStudent+CoreDataClass.h */,
-				4376713121D6513000BB3AB5 /* DbStudent+CoreDataClass.m */,
-				4376713521D6513000BB3AB5 /* DbStudent+CoreDataProperties.m */,
 				4334F15321D532D9004ED526 /* Model */,
 				434BA87021D4DE80001FFF70 /* db */,
 				43FEA78A21C931BF00A013BC /* CJYCrashTool */,
@@ -477,12 +457,8 @@
 				43A6E76121CA882300DB0BC3 /* NSString+CJYPreventCrash.m in Sources */,
 				43A6E75421CA714E00DB0BC3 /* NSObject+CJYPreventCrash.m in Sources */,
 				439A430221C8024D0096470C /* SubStudent.m in Sources */,
-				4376713821D6513100BB3AB5 /* DbStudent+CoreDataClass.m in Sources */,
-				4376713A21D6513100BB3AB5 /* Child+CoreDataProperties.m in Sources */,
-				4376713921D6513100BB3AB5 /* Child+CoreDataClass.m in Sources */,
 				43348A5521C6A99900AEC354 /* main.m in Sources */,
 				434BA87321D4DE95001FFF70 /* CoreDataManager.m in Sources */,
-				4376713B21D6513100BB3AB5 /* DbStudent+CoreDataProperties.m in Sources */,
 				4334F15B21D532D9004ED526 /* CJYUserModel.m in Sources */,
 				43348A4721C6A99500AEC354 /* AppDelegate.m in Sources */,
 				439A42FF21C7FE920096470C /* Student.m in Sources */,
