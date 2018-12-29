@@ -20,6 +20,10 @@
 		4334F15C21D532D9004ED526 /* CJYLoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4334F15821D532D9004ED526 /* CJYLoginService.m */; };
 		434BA87321D4DE95001FFF70 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 434BA87121D4DE95001FFF70 /* CoreDataManager.m */; };
 		434BA87621D4DF40001FFF70 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 434BA87421D4DF40001FFF70 /* Model.xcdatamodeld */; };
+		43797CFD21D755B600EAC7FB /* DbStudent+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 43797CF621D755B600EAC7FB /* DbStudent+CoreDataClass.m */; };
+		43797CFE21D755B600EAC7FB /* DbStudent+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 43797CF821D755B600EAC7FB /* DbStudent+CoreDataProperties.m */; };
+		43797CFF21D755B600EAC7FB /* Child+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 43797CFA21D755B600EAC7FB /* Child+CoreDataClass.m */; };
+		43797D0021D755B600EAC7FB /* Child+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 43797CFC21D755B600EAC7FB /* Child+CoreDataProperties.m */; };
 		439A42FF21C7FE920096470C /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A42FE21C7FE920096470C /* Student.m */; };
 		439A430221C8024D0096470C /* SubStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 439A430121C8024D0096470C /* SubStudent.m */; };
 		43A6E75421CA714E00DB0BC3 /* NSObject+CJYPreventCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6E75321CA714E00DB0BC3 /* NSObject+CJYPreventCrash.m */; };
@@ -74,6 +78,14 @@
 		434BA87121D4DE95001FFF70 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
 		434BA87221D4DE95001FFF70 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
 		434BA87521D4DF40001FFF70 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		43797CF521D755B600EAC7FB /* DbStudent+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DbStudent+CoreDataClass.h"; sourceTree = "<group>"; };
+		43797CF621D755B600EAC7FB /* DbStudent+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DbStudent+CoreDataClass.m"; sourceTree = "<group>"; };
+		43797CF721D755B600EAC7FB /* DbStudent+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DbStudent+CoreDataProperties.h"; sourceTree = "<group>"; };
+		43797CF821D755B600EAC7FB /* DbStudent+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DbStudent+CoreDataProperties.m"; sourceTree = "<group>"; };
+		43797CF921D755B600EAC7FB /* Child+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Child+CoreDataClass.h"; sourceTree = "<group>"; };
+		43797CFA21D755B600EAC7FB /* Child+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Child+CoreDataClass.m"; sourceTree = "<group>"; };
+		43797CFB21D755B600EAC7FB /* Child+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Child+CoreDataProperties.h"; sourceTree = "<group>"; };
+		43797CFC21D755B600EAC7FB /* Child+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Child+CoreDataProperties.m"; sourceTree = "<group>"; };
 		439A42FC21C7E9980096470C /* CjyLib.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CjyLib.pch; sourceTree = "<group>"; };
 		439A42FD21C7FE920096470C /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		439A42FE21C7FE920096470C /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
@@ -200,6 +212,14 @@
 		434BA87021D4DE80001FFF70 /* db */ = {
 			isa = PBXGroup;
 			children = (
+				43797CF521D755B600EAC7FB /* DbStudent+CoreDataClass.h */,
+				43797CF621D755B600EAC7FB /* DbStudent+CoreDataClass.m */,
+				43797CF721D755B600EAC7FB /* DbStudent+CoreDataProperties.h */,
+				43797CF821D755B600EAC7FB /* DbStudent+CoreDataProperties.m */,
+				43797CF921D755B600EAC7FB /* Child+CoreDataClass.h */,
+				43797CFA21D755B600EAC7FB /* Child+CoreDataClass.m */,
+				43797CFB21D755B600EAC7FB /* Child+CoreDataProperties.h */,
+				43797CFC21D755B600EAC7FB /* Child+CoreDataProperties.m */,
 				434BA87221D4DE95001FFF70 /* CoreDataManager.h */,
 				434BA87121D4DE95001FFF70 /* CoreDataManager.m */,
 			);
@@ -453,13 +473,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4334F15A21D532D9004ED526 /* CJYBasicModel.m in Sources */,
+				43797D0021D755B600EAC7FB /* Child+CoreDataProperties.m in Sources */,
 				43348A4A21C6A99500AEC354 /* ViewController.m in Sources */,
 				43A6E76121CA882300DB0BC3 /* NSString+CJYPreventCrash.m in Sources */,
 				43A6E75421CA714E00DB0BC3 /* NSObject+CJYPreventCrash.m in Sources */,
 				439A430221C8024D0096470C /* SubStudent.m in Sources */,
+				43797CFD21D755B600EAC7FB /* DbStudent+CoreDataClass.m in Sources */,
+				43797CFF21D755B600EAC7FB /* Child+CoreDataClass.m in Sources */,
 				43348A5521C6A99900AEC354 /* main.m in Sources */,
 				434BA87321D4DE95001FFF70 /* CoreDataManager.m in Sources */,
 				4334F15B21D532D9004ED526 /* CJYUserModel.m in Sources */,
+				43797CFE21D755B600EAC7FB /* DbStudent+CoreDataProperties.m in Sources */,
 				43348A4721C6A99500AEC354 /* AppDelegate.m in Sources */,
 				439A42FF21C7FE920096470C /* Student.m in Sources */,
 				43A6E75721CA723400DB0BC3 /* NSObject+CJYSwizzleHook.m in Sources */,

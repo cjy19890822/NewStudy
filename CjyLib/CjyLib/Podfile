@@ -6,4 +6,5 @@ pod 'AFNetworking'
 pod 'WMPageController', '~> 2.5.2'
 pod 'SDWebImage', '~> 4.3.2'
 pod 'FFToast'
+pod 'MagicalRecord'
 end

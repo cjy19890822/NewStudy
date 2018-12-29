@@ -15,6 +15,7 @@
 #define  RH_APP_VERSION                  @"1.0"
 //2. 引用全局性头文件；
 #import <Foundation/Foundation.h>
+#import <MagicalRecord/MagicalRecord.h>
 #define DEVELOP_ENV    0
 #define TEST_ENV       1
 #define PRODUCTION_ENV 0

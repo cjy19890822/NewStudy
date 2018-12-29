@@ -12,6 +12,7 @@
 #import "CJYUserModel.h"
 #import "CJYLoginService.h"
 #import "FFtoast.h"
+#import "Child+CoreDataClass.h"
 @interface ViewController ()
 //@property(nonatomic,strong) 
 @end
@@ -48,6 +49,14 @@
     [btn3 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [self.view addSubview:btn3];
     
+    UIButton* btn4 = [[UIButton alloc] init];
+    btn4.frame = CGRectMake(0, 500, 80, 80);
+    [btn4 setTitle:@"lookup" forState:UIControlStateNormal];
+    [btn4 addTarget:self action:@selector(mrInsert:) forControlEvents:UIControlEventTouchUpInside];
+    btn4.backgroundColor = [UIColor yellowColor];
+    [btn4 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [self.view addSubview:btn4];
+    
     [super viewDidLoad];
     DLog(@"currentMainUrl:***%@***",MAIN_URL);
     Student* stu = [Student new];
@@ -69,7 +78,19 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-
+-(void)mrInsert:(UIButton*)btn
+{
+    for(int i = 0 ; i < 10;i ++ )
+    {
+        Child* child = [Child MR_createEntity];
+        child.age = 10;
+    }
+    NSLog(@"bbb");
+   // [[NSManagedObjectContext MR_defaultContext] MR_saveOnlySelfAndWait];
+    [NSManagedObjectContext MR_rootSavingContext]
+    NSLog(@"aaa");
+   // [MagicalRecord saveWithBlock:<#^(NSManagedObjectContext * _Nonnull localContext)block#>]
+}
 -(NSArray*)query
 {
     NSPredicate* pre = [NSPredicate predicateWithFormat:@"name = %@",@"cjy"];

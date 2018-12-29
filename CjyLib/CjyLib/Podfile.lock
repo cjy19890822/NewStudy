@@ -15,6 +15,9 @@ PODS:
   - AFNetworking/UIKit (3.2.0):
     - AFNetworking/NSURLSession
   - FFToast (1.2.0)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
   - SDWebImage (4.3.2):
     - SDWebImage/Core (= 4.3.2)
   - SDWebImage/Core (4.3.2)
@@ -23,15 +26,25 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - FFToast
+  - MagicalRecord
   - SDWebImage (~> 4.3.2)
   - WMPageController (~> 2.5.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - FFToast
+    - MagicalRecord
+    - SDWebImage
+    - WMPageController
 
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
   FFToast: 60e0f3c9fd8fc473205015055ee39cd200404e01
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
   SDWebImage: 29bd3c0bc1f01e5eb59720847c64ad4c4ca1af5d
   WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
 
-PODFILE CHECKSUM: a585f933858be2f36a1b20a7f3e7522a9e9c4890
+PODFILE CHECKSUM: 262f1854c48bb5538541d5f4633e5025ddd80cea
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3
